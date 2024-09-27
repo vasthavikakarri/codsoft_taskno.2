@@ -1,0 +1,192 @@
+/* navbar */
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: pink;
+  }
+  
+  nav.navbar .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav.navbar .navbar-nav {
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  
+  
+  
+  
+  
+  /* Hero slider */
+  
+  .hero-slider .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: auto;
+    left: 3%;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #000000;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .hero-slider .carousel-caption h5{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  
+  .hero-slider .carousel-caption p{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  
+  .hero-slider .carousel-indicators button{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border-radius: 100%;
+    border: 1px solid #e7bfbf;
+    background-color: pink !important;
+
+  }
+  
+  .hero-slider .carousel-indicators button.active{
+    background-color: rgb(2, 2, 2) !important;
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* Our Product That Offer You */
+  
+  .container .text-center{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+  
+  .container .row .col .p-3 img{
+    width: 52px;
+    height: 52px;
+    margin-bottom: 15px;
+    background-color: pink;
+  }
+  
+  .container .row .col .p-3 h5{
+    font-size: 15px;
+  }
+  
+  
+  .reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+    background-color: pink;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  
+  
+  
+  
+  
+  /* Story card */
+  
+  .storycard .card {
+    border: 0px solid rgba(0,0,0,.125);
+  }
+  
+  .storycard .card-title {
+    margin-top: 50px;
+  }
+  
+  .container-fluid.storycard {
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* News & Updates */
+  
+  .newsupdates .sectiontitle{
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-size: 24px;
+  }
+  
+  .newsupdates .card{
+    border: 0px solid rgba(190, 18, 18, 0.308);
+  }
+  
+  
+  .newsupdates .card-text{
+    font-size: 12px;
+  }
+  
+  .newsupdates .card small{
+    font-size: 12px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  /* footer */
+  
+  footer .container .square{
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+  
+  footer .container{
+    font-size: 14px;
+  }
+  
+  footer .form-control {
+    background-color: transparent;
+    border-right: none;
+    border: none;
+    color: rgb(235, 223, 223);
+  }
+  
+  footer #button-addon2 {
+    border: none;
+  }
+  
+  footer .input-group.mb-3 {
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 5px;
+  }
